@@ -1,0 +1,47 @@
+.sidebar {
+	background-color: #47b6ea;
+	height: 100%;
+	width: 280px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	padding: 20px;
+}
+
+.sidebar > .title {
+	margin-left: 25px;
+	font-size: 26px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.sidebar > ul {
+	list-style: none;
+}
+
+.sidebar > ul > li {
+	font-family: sans-serif;
+	margin-bottom: 26px;
+}
+
+.sidebar a {
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.sidebar a,
+.sidebar a:visited {
+	color: #404040;
+}
+
+.sidebar a:hover {
+	color: white;
+}
+
+.sidebar a:active {
+	color: yellow;
+}
